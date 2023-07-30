@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div id="toolbar">
+        <h1>toolbar</h1>
+        <label for="color">Color <i class="bi bi-palette"></i></label>
+        <input id="color" name="color" type="color" />
+
+        <label for="lineWidth">Size</label>
+        <input id="lineWidth" name="lineWidth" type="range" min="2" max="100" />
+        <button id="clear">Clear</button>
+        <i class="bi bi-paint-bucket" id="fillImage"></i>
+        <i class="bi bi-eraser" id="eraser"></i>
+
+        <i class="bi bi-brush" id="pencil"></i>
+        <span style="color: black"> Developed By- Moran ♥ Habooba</span>
+      </div>
+    </div>
+
+    <canvas id="canvas"> </canvas>
+  </body>
+</html>
